@@ -1,0 +1,22 @@
+.post {
+  max-width: 300px;
+  background: grey;
+  padding: 1rem;
+}
+.posts {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.pageNubmers {
+  display: flex;
+  gap: 5px;
+}
+.normalCard {
+  background: aqua;
+}
+.numbersWrapper {
+  display: flex;
+  gap: 20px;
+}

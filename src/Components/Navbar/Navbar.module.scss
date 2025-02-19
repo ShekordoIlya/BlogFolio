@@ -1,0 +1,23 @@
+.navbar {
+  position: absolute;
+  width: 236px;
+  height: 95vh;
+  background: beige;
+  left: -100%;
+  transition: all 1s;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+}
+.navbar.active {
+  left: 0;
+}
+.active {
+  color: red;
+}
+.nonActive {
+  color: blue;
+}

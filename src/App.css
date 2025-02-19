@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+.btn {
+  border: 3px solid red;
+}
